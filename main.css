@@ -1,0 +1,49 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
+    /* background-image: url(./public/img/background2.jpg); */
+    background-image: url(./public/img/backgroundfinal2.jpg);
+    background-size: 100% 100%;
+    
+}
+
+
+.letra {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+#menu li > a {
+    font-size: 18px;
+    
+    color: black;
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 40rem;
+}
+
+@media (max-width:768px) {
+    #intro {
+    width: 90% !important;
+    }
+}
+
+.servicio-fila {
+    width: 100% !important;
+    text-align: center;
+}
+
+.mapa {
+    background: url(./public/img/mapa.jpg);
+    width: 500px;
+    height: 500px;
+}
+
+
+
